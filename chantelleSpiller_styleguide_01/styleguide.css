@@ -1,0 +1,204 @@
+/*-----------------------------
+Style guide created by Chantelle Spiller
+
+Hex Colours:
+Lime: #BAD437;
+Peach: #F69567;
+Red: #F26F69;
+Purple: #873A95;
+
+ ---------------------------------*/
+
+body, section, div, img, ul, li, a, p, h1, h2, h3, h4, h5, h6 {
+	margin: 0; padding: 0;
+}
+
+ul, li, p, span, a, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Josefin Sans', sans-serif; 
+	color:white;
+}
+p, span, .fancyLink {
+	margin:10px 0px;
+	color: #F26F69;}
+span {font-style: italic;}
+
+h1 {font-weight: 100;
+	font-size:45pt;
+}
+h2{
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+h3 {font-size: 22px;}
+h4{}
+ul {list-style: none;}
+li {}
+a {text-decoration: none;}
+
+/*----------------------------------------------*/
+
+
+#wrapper {
+	width: 1024px;
+	background-color: #F69567;
+	height: auto;
+	display:inline-block;
+}
+
+/*-------------------Header--------------------*/
+
+header {
+	height:120px;
+	width: 100%;
+	background-color: #F69567;
+}
+header > img {
+	width:auto; 
+	height: 120px; 
+	margin-left: 43px; 
+	float:left;
+}
+header > h1 {
+	margin-left: 3%; 
+	margin-top:5%; 
+	float:left;
+}
+div>img {margin-bottom: -4px;}
+
+/*-----------------Body-------------------------*/
+
+
+#columns {
+	width: 938px;
+	margin: 0 auto;
+}
+section {
+	width: 464px;
+	height: 578px;
+	background-color: #FFF;
+	margin-right: 10px;
+	float: left;
+}
+
+section:nth-child(2) {
+	margin-right: 0;
+}
+
+/*-------------------.colourPalette----------------------*/
+
+.colourPalette {margin-bottom: 5%;}
+.colourPalette > ul {
+	text-align: center;
+}
+.colourPalette > ul > li {
+	width: 75px;
+	height: 75px;
+	display: inline-block;
+	margin-right: 3%;
+}
+
+.content > div.colourPalette > h3 {
+	margin: 20px;
+	color: #F26F69;
+}
+.colourPalette > ul > li:nth-child(1) {
+	background-color: #FFF;
+	border: 1px solid #F26F69;
+}
+.colourPalette > ul > li:nth-child(2) {
+	background-color: #BAD437;
+}
+.colourPalette > ul > li:nth-child(3) {
+	background-color: #F69567;
+}
+.colourPalette > ul > li:nth-child(4) {
+	background-color: #F26F69;
+}
+.colourPalette > ul > li:nth-child(5) {
+	background-color: #873A95;
+	margin-right: 0;
+}
+
+/*----------------------.button---------------------*/
+
+.button {
+	background-color: #BAD437;
+	padding: 5px;
+}
+.button> h3 {margin: 10px;}
+
+.button >ul li {
+	display:inline-block; 
+	margin: 10px;
+}
+.button >ul li:nth-child(2) {
+	float:right;
+}
+.button >ul li a {padding: 10px 55px;}
+.button >ul li a:link {
+	background-color: #FFF; 
+	color:#F26F69;
+}
+.button >ul li a:visited {
+	background-color: #FFF; 
+	color:#F26F69;
+}
+.button >ul li a:hover {background-color: #873A95;}
+
+
+.button >ul > li > a.selectedState {
+	background-color: #F69567;
+	color: white;
+}
+
+.button >ul > li:hover > a.selectedState {background-color: #873A95;}
+
+/*--------------------.blogPost----------------------*/
+
+
+.blogPost {
+	width:464px;
+	height: 290px;
+	display:inline-block;
+	background-image: url('img/kittens_blogPost_464x290.jpg');
+	margin: 20px 0px;
+}
+
+/*-------------------Column 02--------------------*/
+
+/*--------------------.typography---------------------*/
+
+.typography {
+	width:424px; 
+	height: 538px; 
+	padding:20px;
+}
+
+/*--------------------.header---------------------*/
+
+.header > h2 {color: #BAD437;}
+
+/*--------------------.subHead---------------------*/
+
+.subHead > h4 {
+	margin-bottom: 10px;
+	color: #873A95;
+}
+
+/*--------------------.text---------------------*/
+
+.text p {
+	font-weight:100;
+}
+.text span {
+	color: #873A95;
+}
+
+/*--------------------.fancyLink---------------------*/
+.fancyLink {}
+.fancyLink:visited {}
+.fancyLink:hover {color: #BAD437;}
+
+
+
+
